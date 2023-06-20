@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update"
+    android:background="@color/category_enter"
+    android:gravity="">
+    <LinearLayout
+        android:id="@+id/lnNameTellerUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/nameOfTellerUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameOfTeller"
+            style="@style/styleOfTextView"
+            />
+        <EditText
+            android:id="@+id/enterNameOfTellerUpdate"
+            android:hint="@string/UpdateNameOfTeller"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnAmountUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnNameTellerUpdate"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/AmountUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amountOf"
+            style="@style/styleOfTextView"
+            />
+        <EditText
+            android:id="@+id/enterAmountUpdate"
+            android:hint="@string/UpdateAmountOf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnCauseUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnAmountUpdate"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/CauseUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cause"
+            style="@style/styleOfTextView"
+            />
+        <EditText
+            android:id="@+id/enterCauseUpdate"
+            android:hint="@string/UpdateCause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnUpdateUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnCauseUpdate">
+        <Button
+            android:id="@+id/UpdateUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            style="@style/styleOfButton"
+            android:background="@color/category_mian"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

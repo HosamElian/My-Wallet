@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewPerson"
+    android:background="@color/category_enter"
+    android:gravity="">
+    <LinearLayout
+        android:id="@+id/lnNameTeller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/styleOfLn">
+
+
+    <TextView
+        android:id="@+id/nameOfTeller"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/nameOfTeller"
+        style="@style/styleOfTextView"
+        />
+    <EditText
+        android:id="@+id/enterNameOfTeller"
+        android:hint="@string/enterNameOfTeller"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+       style="@style/styleOfEditText"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnNameTeller"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amountOf"
+            style="@style/styleOfTextView"
+            />
+        <EditText
+            android:id="@+id/enterAmount"
+            android:hint="@string/enterAmountOf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnCause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnAmount"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/Cause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cause"
+            style="@style/styleOfTextView"
+            />
+        <EditText
+            android:id="@+id/enterCause"
+            android:hint="@string/enterCause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnCause">
+    <Button
+        android:id="@+id/butadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addPerson"
+        style="@style/styleOfButton"
+        android:background="@color/category_mian"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

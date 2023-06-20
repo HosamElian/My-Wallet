@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محفظتي</string>
+    <string name="ADD_SUCCESS">تم الإضافة بنجاح</string>
+    <string name="Confirmation">تأكيد</string>
+    <string name="DELETE_DONE">تم الحذف بنجاح</string>
+    <string name="Expenses">المصروفات :</string>
+    <string name="UpdateAmountOf">تحديث الكمية</string>
+    <string name="UpdateCause">تحديث السبب لصرف المبلغ</string>
+    <string name="UpdateNameOfTeller">تحديث اسم المستحق</string>
+    <string name="UpdateSuccess">تم التحديث بنجاح</string>
+    <string name="addPerson">اضف عملية صرف</string>
+    <string name="amountOf">كمية الصرف</string>
+    <string name="areu">هل انت متأكد؟</string>
+    <string name="cause">سبب الصرف</string>
+    <string name="enterAmountOf">ادخل الكمية</string>
+    <string name="enterCause">ادخل سبب الصرف</string>
+    <string name="enterNameOfTeller">ادخل اسم المستحق</string>
+    <string name="nameOfTeller">اسم المستحق</string>
+    <string name="no">لا</string>
+    <string name="update">تحديث</string>
+    <string name="yes">نعم</string>
+    <string name="lt">جنية.</string>
+</resources>

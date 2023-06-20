@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update"
+    android:background="@color/category_enter"
+    android:gravity="">
+    <LinearLayout
+        android:id="@+id/lnNameTellerShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/nameOfTellerShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nameOfTeller"
+            style="@style/styleOfTextView"
+            />
+        <TextView
+            android:id="@+id/enterNameOfTellerShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnAmountShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnNameTellerShow"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/AmountShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amountOf"
+            style="@style/styleOfTextView"
+            />
+        <TextView
+            android:id="@+id/enterAmountShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnCauseShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lnAmountShow"
+        style="@style/styleOfLn">
+
+
+        <TextView
+            android:id="@+id/CauseShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cause"
+            style="@style/styleOfTextView"
+            />
+        <TextView
+            android:id="@+id/enterCauseShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/styleOfEditText"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

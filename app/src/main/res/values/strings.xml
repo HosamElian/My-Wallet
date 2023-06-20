@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyWallet</string>
+    <string name="nameOfTeller">Name Of Teller</string>
+    <string name="amountOf">Amount of exchange</string>
+    <string name="cause">Cause of exchange</string>
+    <string name="Expenses">Expenses is: </string>
+    <string name="addPerson">Add New Teller</string>
+    <string name="enterNameOfTeller">Enter Name Of Teller</string>
+    <string name="enterAmountOf">Enter Amount of exchange</string>
+    <string name="enterCause">Enter Cause of exchange</string>
+    <string name="UpdateNameOfTeller">Update Name Of Teller</string>
+    <string name="UpdateAmountOf">Update Amount of exchange</string>
+    <string name="UpdateCause">Update Cause of exchange</string>
+    <string name="update">Update</string>
+    <string name="UpdateSuccess">UPDATE SUCCESS</string>
+    <string name="Confirmation">Confirmation</string>
+    <string name="areu">Are You Sure ?</string>
+    <string name="ADD_SUCCESS">ADD SUCCESS </string>
+    <string name="DELETE_DONE">DELETE DONE</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="lt">Lite.</string>
+</resources>
